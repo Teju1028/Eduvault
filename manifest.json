@@ -1,8 +1,11 @@
 {
   "name": "EduVault",
   "short_name": "EduVault",
-  "start_url": "login.html",
+  "description": "A study material sharing platform for students.",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#2563eb"
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "icons": []
 }
