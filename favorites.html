@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Favorites</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+
+<header>
+    <h1>❤️ Favorites</h1>
+
+    <a href="home.html">← Back</a>
+</header>
+
+<div class="container">
+
+    <div id="favoritesList"></div>
+
+</div>
+
+<script>
+
+let favorites =
+JSON.parse(localStorage.getItem("favorites"))
+|| [];
+
+let favoritesList =
+document.getElementById("favoritesList");
+
+if (favorites.length === 0) {
+
+    favoritesList.innerHTML =
+    "<h3>No Favorites Added</h3>";
+
+}
+
+favorites.forEach(note => {
+
+    favoritesList.innerHTML += `
+
+    <div class="note">
+
+        <h3>${note.title}</h3>
+
+        <p>${note.subject}</p>
+
+        <a href="${note.link}" target="_blank">
+        Open Note
+        </a>
+
+    </div>
+
+    `;
+
+});
+
+</script>
+
+</body>
+</html>

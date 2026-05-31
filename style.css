@@ -1,0 +1,226 @@
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: #f1f5f9;
+
+}
+
+header {
+
+  background: #2563eb;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 20px;
+
+}
+
+header h1 {
+
+  margin: 0;
+
+}
+
+.container {
+
+  max-width: 600px;
+
+  margin: auto;
+
+  padding: 20px;
+
+}
+
+.upload-box {
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+}
+
+input {
+
+  width: 100%;
+
+  padding: 12px;
+
+  margin-top: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 8px;
+
+  box-sizing: border-box;
+
+}
+
+button {
+
+  width: 100%;
+
+  padding: 12px;
+
+  margin-top: 15px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #2563eb;
+
+  color: white;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+}
+
+button:hover {
+
+  background: #1d4ed8;
+
+}
+
+.note {
+
+  background: white;
+
+  margin-top: 20px;
+
+  padding: 15px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+}
+
+.note h3 {
+
+  margin: 0;
+
+}
+
+.note p {
+
+  color: gray;
+
+}
+
+.note a {
+
+  text-decoration: none;
+
+  color: #2563eb;
+
+  font-weight: bold;
+
+}
+.dark {
+
+  background: #0f172a;
+
+  color: white;
+
+}
+
+.dark .upload-box,
+.dark .note {
+
+  background: #1e293b;
+
+  color: white;
+
+}
+nav {
+
+  margin-top: 10px;
+
+}
+
+nav a {
+
+  color: white;
+
+  margin: 10px;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+}
+
+.login-box {
+
+  max-width: 350px;
+
+  margin: 100px auto;
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  text-align: center;
+
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+}
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.dark .container,
+.dark .note-card,
+.dark header {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark input,
+.dark button {
+    background: #333;
+    color: white;
+    border: none;
+}
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.dark .container,
+.dark .note,
+.dark input,
+.dark select {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark button {
+    background: #333;
+    color: white;
+}
+header a {
+
+    margin-right: 20px;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
