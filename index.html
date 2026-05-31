@@ -1,84 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-
-  <meta charset="UTF-8">
-
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
-
-  <title>EduVault</title>
-
-  <link rel="stylesheet" href="style.css">
-
+<meta http-equiv="refresh" content="0; url=login.html">
 </head>
-
 <body>
-
-  <header>
-
-    <h1>📚 EduVault</h1>
-
-    <p>Your Smart Notes Hub</p>
-
-  </header>
-
-  <div class="container">
-<button onclick="googleLogin()">
-  Login with Google
-</button>
-
-<button onclick="logout()">
-  Logout
-</button>
-    <div class="upload-box">
-
-      <input type="text"
-        id="title"
-        placeholder="Enter Note Title">
-
-      <input type="text"
-        id="subject"
-        placeholder="Enter Subject">
-
-      <input type="text"
-        id="link"
-        placeholder="Paste Google Drive Link">
-
-      <button onclick="addNote()">
-        Upload Note
-      </button>
-      <button onclick="toggleDarkMode()">
-  🌙 Dark Mode
-</button>
-<select id="filter"
-  onchange="filterNotes()">
-
-  <option value="all">All</option>
-
-  <option value="java">Java</option>
-
-  <option value="python">Python</option>
-
-</select>
-
-    </div>
-
-    <h2>Available Notes</h2>
-    <input
-  type="text"
-  id="search"
-  placeholder="Search Notes..."
-  onkeyup="searchNotes()">
-
-    <div id="notesList"></div>
-
-  </div>
-
-  <script type="module"
-    src="script.js"></script>
-
 </body>
-
 </html>
